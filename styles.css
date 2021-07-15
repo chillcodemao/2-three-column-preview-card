@@ -58,8 +58,9 @@ body {
 .card {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    width: 100%;
     max-width: 1440px;
     border-radius: 10px;
     overflow: hidden;
