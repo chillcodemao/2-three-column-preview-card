@@ -35,6 +35,25 @@ button {
     border-radius: 20px;
     padding: 1rem 2.5rem;
     margin: 0rem 0rem 4rem 4rem;
+    transition: 150ms ease-in-out;
+}
+
+.sedans-card-btn:hover, .sedans-card-btn:focus {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.suvs-card-btn:hover, .suvs-card-btn:focus {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.luxury-card-btn:hover, .luxury-card-btn:focus {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
 }
 
 .sedans-card {
@@ -51,6 +70,7 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: initial;
     }
 
     .car-categories-preview {

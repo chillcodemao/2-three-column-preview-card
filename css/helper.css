@@ -29,12 +29,12 @@ button {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-.sedan-card-btn {
+.sedans-card-btn {
     color: hsl(31, 77%, 52%);
     font-size: 1.5rem
 }
 
-.suv-card-btn {
+.suvs-card-btn {
     color: hsl(184, 100%, 22%);
     font-size: 1.5rem
 }
