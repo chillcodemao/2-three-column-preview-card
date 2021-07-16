@@ -55,11 +55,16 @@ button {
 
     .car-categories-preview {
         flex-direction: row;
-        max-width: 1440px;
+        flex: 1 0 auto;
+        max-width: 920px;
     }
 
     p {
         padding: 0rem 4rem 8rem 4rem;
+    }
+
+    .luxury-card-btn {
+        margin-bottom: 5rem;
     }
 
 }
