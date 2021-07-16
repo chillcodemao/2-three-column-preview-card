@@ -1,0 +1,57 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.sedans-card {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-card {
+    background-color: hsl(179, 100%, 13%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan-card-btn {
+    color: hsl(31, 77%, 52%);
+    font-size: 1.5rem
+}
+
+.suv-card-btn {
+    color: hsl(184, 100%, 22%);
+    font-size: 1.5rem
+}
+
+.luxury-card-btn {
+    color: hsl(179, 100%, 13%);
+    font-size: 1.5rem
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.car-categories-preview {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
