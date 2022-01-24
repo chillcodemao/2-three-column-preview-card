@@ -1,12 +1,11 @@
-html {
-    box-sizing: border-box;
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-body {
-    min-height: 100vh;
-    display: flex;
-    padding: 2rem;
-}
 
 .car-categories-preview {
     display: flex;
@@ -15,7 +14,7 @@ body {
     border-radius: 10px;
     overflow: hidden;
     max-width: 45rem;
-    margin: auto;
+    margin: 8.8rem 2.4rem;
 }
 
 .card {

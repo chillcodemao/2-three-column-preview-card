@@ -1,3 +1,7 @@
+:root {
+    font-size: 62.5%;
+}
+
 body {
     background-color: hsl(0, 0%, 95%);
 }
